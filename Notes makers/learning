@@ -1,0 +1,14 @@
+setting up parser for data
+
+setting up ejs to ejs pages
+    install ejs from npm
+    setup ejs as a view engine
+
+setting up public static files
+    const path = require('path');
+    console.log(path.join(__dirname, 'public'));
+    console.log(__dirname+'/public');
+
+dynamic routing 
+    dynamic routes
+    how to get data coming from frontend at backend routes

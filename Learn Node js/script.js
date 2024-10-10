@@ -59,7 +59,7 @@ const filePath = `${folderName}/${fileName}`;
 //     fs.mkdirSync(folderName);
 // }
 
-fs.writeFile(filePath, "Hello World!", (err) => {
+fs.writeFile(filePath, "Hello World! Coder", (err) => {
     if (err) console.error(err.message);
     else console.log("Done");
 });
