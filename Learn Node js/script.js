@@ -1,10 +1,10 @@
 const fs = require('fs');
 
 // Create a file
-// fs.writeFile("hey.txt","Hello how are you?", (err)=>{
-//     if(err) console.error(err);
-//     else console.log("Done");
-// })
+fs.writeFile("he.txt","Hello how are you?", (err)=>{
+    if(err) console.error(err);
+    else console.log("Done");
+})
 
 // Append a file 
 // fs.appendFile("hey.txt","I am good and you ?", function (err) {
@@ -50,16 +50,16 @@ const fs = require('fs');
 //     else console.log("Delete Folder Successfully!");
 // })
 
-const folderName = 'myFolder';
-const fileName = 'myFile.txt';
-const filePath = `${folderName}/${fileName}`;
+// const folderName = 'myFolder';
+// const fileName = 'myFile.txt';
+// const filePath = `${folderName}/${fileName}`;
 
-// Create folder if it doesn't exist
-// if (!fs.existsSync(folderName)) {
-//     fs.mkdirSync(folderName);
-// }
+// // Create folder if it doesn't exist
+// // if (!fs.existsSync(folderName)) {
+// //     fs.mkdirSync(folderName);
+// // }
 
-fs.writeFile(filePath, "Hello World! Coder", (err) => {
-    if (err) console.error(err.message);
-    else console.log("Done");
-});
+// fs.writeFile(filePath, "Hello World! Coder", (err) => {
+//     if (err) console.error(err.message);
+//     else console.log("Done");
+// });
