@@ -1,0 +1,6 @@
+cookies kse set karte hai and read karte hai
+bcrypt kase use karte hai for password encrypt and decryption
+jwt hai kya and jwt mai mein data kse stroe kare and bhar nikale
+
+Plain Password - Prateek
+encrypt Password - $2b$10$LtfnQkcFpcHm2OXVUHrKpekyNq/7g.zkqEriLeHrbYV6RzZDKirPC
